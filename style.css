@@ -1,0 +1,93 @@
+body{
+    margin: auto;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.row{
+    margin-bottom: 50px;
+}
+
+section img{
+    width: 200px;
+    height: 270px;
+    z-index: 2;
+}
+
+.imagine{
+    position: relative;
+}
+
+.sconto-sostenibilità{
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    font-size: 15px;
+    color: white;
+    font: bold;
+}
+
+.sconto{
+    background-color: red;
+
+}
+
+.sostenibilità{
+    background-color: #028759;
+
+}
+
+.heart{
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    font-size: 25px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    display: inline;
+}
+
+.text{
+    display: block;
+}
+
+.figure{
+    display: inline-block;
+}
+
+#sostenibilità6{
+    background-color: #028759;
+    position: absolute;
+    left: 15px;
+    bottom: 0px;
+    font-size: 15px;
+    color: white;
+    font: bold;  
+}
+
+strong{
+    font-size: 13px;
+}
+
+.red{
+    color: red;
+    font-size: 15px;
+   
+}
+
+.old{
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+.second{
+    position: absolute;
+    visibility: hidden;
+    z-index: 1;
+    left: 0;
+}
+.imagine:hover .second{
+    visibility: visible;
+}
